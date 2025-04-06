@@ -1,0 +1,29 @@
+# Arquivo de Informações do Jogo da Forca com Dica by Kaleido Void Studios #
+
+--> Descrição:
+Este é um jogo da forca clássico implementado usando a ferramenta Processing. 
+O jogador tenta adivinhar uma palavra secreta, letra por letra, com a ajuda de uma dica. 
+A cada tentativa incorreta, uma parte do desenho da forca é adicionada. O jogador vence se 
+adivinhar a palavra antes que o desenho da forca seja completo.
+
+--> Diferenciais e Funcionalidades Principais:
+1. Seleção Aleatória de Palavras e Dicas: O jogo escolhe aleatoriamente uma palavra secreta de uma lista predefinida e fornece uma dica correspondente.
+2. Interface Gráfica Simples: A interface do jogo é criada usando as funções de desenho do Processing para exibir o estado da palavra, o desenho da forca, o número de tentativas restantes e as letras chutadas.
+3. Controle de Tentativas: O jogador tem um número limitado de tentativas incorretas (neste caso, 6).
+4. Feedback Visual: O jogo atualiza a exibição da palavra secreta conforme letras corretas são adivinhadas, mostrando underscores para letras desconhecidas. Ele também desenha partes da forca para cada tentativa incorreta.
+5. Registro de Letras Chutadas: O jogo mantém o controle das letras que o jogador já tentou adivinhar e as exibe na tela.
+6. Dica da Palavra: Uma dica relacionada à palavra secreta é exibida na tela para ajudar o jogador. A dica é geralmente mais longa que a palavra secreta e é exibida em azul marinho.
+7. Detecção de Vitória e Derrota: O jogo verifica se o jogador adivinhou todas as letras da palavra secreta (vitória) ou se excedeu o número máximo de tentativas incorretas (derrota).
+8. Tela Final do Jogo: Ao final do jogo, uma tela preenche toda a janela com fundo verde claro e texto azul marinho, informando se o jogador venceu ou perdeu e qual era a palavra secreta em caso de derrota.
+9. Jogar Novamente: Após o término de uma partida, o jogador pode pressionar qualquer tecla para iniciar uma nova rodada com uma palavra secreta diferente.
+
+--> Como Jogar:
+- Execute o programa Processing.
+- Uma janela gráfica será aberta, mostrando o estado inicial do jogo.
+- A palavra secreta é representada por underscores, e uma dica é exibida abaixo.
+- O número de tentativas restantes e as letras já chutadas serão exibidos.
+- Pressione as teclas do teclado correspondentes às letras que você deseja chutar.
+- Se a letra chutada estiver na palavra secreta, todas as ocorrências dessa letra serão reveladas.
+- Se a letra chutada não estiver na palavra secreta, uma parte do desenho da forca será adicionada, e o número de tentativas restantes diminuirá.
+- O jogo continua até que você adivinhe a palavra secreta ou o desenho da forca seja completado.
+- Ao final do jogo, uma tela com o resultado será exibida. Pressione qualquer tecla para jogar novamente.
