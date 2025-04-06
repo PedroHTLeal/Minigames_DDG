@@ -1,31 +1,33 @@
 # Arquivo de Informações do Jogo do Marciano by Kaleido Void Studios #
 
---> Descrição: 
-Uma versão aprimorada do clássico "Jogo do Marciano", onde o jogador precisa adivinhar 
-um número secreto entre 1 e 100. Nesta versão, o jogo conta com uma história introdutória,
-um limite de tentativas por rodada, registro dos melhores resultados (recordes) e 
-a possibilidade de jogar quantas vezes o usuário desejar.
+
+--> Descrição:
+O Jogo do Marciano é um divertido e desafiador jogo em que o jogador 
+assume o papel de um terráqueo tentando desvendar os segredos numéricos escondidos 
+por um marciano brincalhão. Seu principal objetivo é descobrir um número secreto 
+entre 01 e 99 dentro de um número limitado de tentativas. Se o jogador acertar, 
+ele poderá acessar o Desafio Final, uma fase ainda mais intrigante que testa a lógica 
+e atenção do jogador.
 
 --> Diferenciais e Funcionalidades Principais:
-1. Geração de Número Secreto: Um número aleatório entre 1 e 100 é gerado no início de cada rodada.
-2. Limite de Tentativas: Cada rodada possui um limite de 7 tentativas para o jogador adivinhar 
-o número secreto.
-3. Feedback ao Jogador: Após cada tentativa, o jogo informa se o número digitado é muito alto 
-ou muito baixo, ajudando o jogador a refinar seus palpites.
-4. Registro de Recordes: Ao acertar o número secreto, o jogador pode inserir seu nome para 
-registrar seu desempenho. Os recordes são armazenados, contendo o nome do jogador e o número 
-de tentativas que ele utilizou para vencer. Os melhores recordes (até 5) são exibidos ao final 
-de cada partida bem-sucedida.
-5. Jogar Novamente: Após o término de uma rodada (vitória ou derrota), o jogador é perguntado 
-se deseja jogar novamente, permitindo múltiplas partidas sem precisar reiniciar o programa.
-6. Introdução com História: O jogo começa com uma breve narrativa temática, envolvendo a 
-comunicação com marcianos, para tornar a experiência mais imersiva.
+1. Dois modos de desafio: jogo principal e o Desafio Final;
+2. Sistema de recordes: os melhores jogadores têm seu nome registrado;
+3. Feedback personalizado: dicas sobre o número (maior/menor) e um sistema de feedback visual com símbolos no Desafio Final;
+3. Experiência imersiva: introdução narrativa e interações com o "universo" do jogo;
+4. Código secreto com lógica similar ao Mastermind ou Termo
 
 --> Como Jogar
-- Execute o programa Java.
-- Leia a introdução para entender a história do jogo.
-- O jogo solicitará que você digite sua primeira tentativa (um número entre 1 e 100).
-- Após cada tentativa, o jogo informará se o número secreto é maior ou menor que o seu palpite.
-- Você terá um número limitado de tentativas para acertar o número secreto.
-- Se você acertar dentro do limite de tentativas, poderá registrar seu nome para o recorde.
-- Ao final de cada partida, você será perguntado se deseja jogar novamente. Responda "sim" para jogar outra rodada ou "não" para encerrar o jogo.
+1. Jogo Principal:
+- O jogo escolhe aleatoriamente um número entre 01 e 99.
+- Você tem até 8 tentativas para adivinhar o número.
+- Após cada tentativa, o jogo dirá se o número secreto é maior ou menor.
+- Se acertar, você pode registrar seu nome no ranking e acessar o Desafio Final.
+2. Desafio Final
+- Um código secreto de 5 dígitos é gerado.
+- Dois dos dígitos vêm do número que você descobriu anteriormente.
+- Em cada tentativa, você digita um código de 5 números.
+- O feedback visual funciona assim:
+[n]: Dígito correto na posição correta;
+(n): Dígito correto na posição errada;
+n: Dígito não está no código.
+- São permitidas até 8 tentativas para acertar o código.
