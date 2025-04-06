@@ -1,0 +1,26 @@
+# Arquivo de Informações do Tic Tac Toe Matemático by Kaleido Void Studios #
+
+--> Descrição:
+Tic Tac Toe Matemático é uma versão expandida do tradicional jogo da velha, 
+agora com um tabuleiro 4x4 e uma mecânica baseada em soma de dados. 
+Cada casa do tabuleiro possui um número de 2 a 12, e os jogadores 
+só podem marcar casas compatíveis com a soma dos dados lançados ou 
+pelo valor de somente um deles. É um jogo de estratégia, raciocínio 
+e agilidade — tanto para jogar contra outro jogador quanto contra a CPU.
+
+--> Diferenciais e Funcionalidades Principais:
+1. Casas do tabuleiro são ocupadas apenas se o número for igual a um dos dados ou à soma dos dois
+2. Temporizador circular (formato pizza) que dá 8 segundos por turno
+3. Jogador perde o turno se não clicar a tempo ou se não houver jogada válida
+4. O jogo só reinicia após vitória, para permitir análise do resultado
+5. Visual intuitivo com dados, símbolos e feedback colorido para cada jogador
+
+--> Como Jogar:
+- Clique em "Jogar contra CPU" ou "2 Jogadores" no menu inicial.
+- O jogador atual verá o botão "Rolar Dados".
+- Após clicar, serão exibidos dois dados (ex: 4 e 5) e a soma deles (9).
+- O jogador deve clicar em uma casa cujo valor seja igual ao primeiro dado, segundo dado ou à soma.
+- Um temporizador em formato pizza começará a rodar após os dados serem rolados. O jogador precisa clicar antes que ele acabe.
+- Se o jogador não clicar a tempo ou não houver jogada válida, ele perde o turno.
+- O primeiro jogador a alinhar 4 marcas (X ou O) em linha, coluna ou diagonal vence.
+- Após a vitória, será exibido o vencedor e duas opções: "Novo jogo contra CPU" ou "Novo jogo 2 jogadores".
