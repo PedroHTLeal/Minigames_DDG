@@ -1,0 +1,38 @@
+# Arquivo de Informações do Jogo do Pong by Kaleido Void Studios #
+
+
+--> Descrição:
+Pong by Kaleido Void Studios é uma releitura moderna e divertida do clássico Pong, 
+com modos singleplayer e multiplayer local. Com visual retrô e jogabilidade afiada, 
+o jogo foi redesenhado com mecânicas inteligentes, IA com diferentes níveis de 
+dificuldade e um sistema de pontuação objetivo e competitivo. Ideal para partidas 
+rápidas e desafiadoras entre amigos ou contra o computador.
+
+--> Diferenciais e Funcionalidades Principais:
+1. IA com 3 níveis de dificuldade ajustável.
+2. Visual retrô com efeitos inspirados no arcade original.
+3. Modo multiplayer local para jogar com amigos.
+4. Pontuação fixa em 7 pontos — rápido, competitivo e dinâmico.
+5. "Preparar?" (READY) aparece apenas antes da primeira rodada, garantindo fluidez nos próximos pontos.
+6. Física da bola com variações aleatórias na colisão, deixando a partida imprevisível.
+7. Aumento de velocidade a cada colisão, criando partidas emocionantes!
+
+--> Como jogar:
+- JOGADOR 1 (lado esquerdo):
+   - Sobe: tecla 'W'
+   - Desce: tecla 'S'
+- JOGADOR 2 (lado direito):
+   - Sobe: tecla '↑' (seta para cima)
+   - Desce: tecla '↓' (seta para baixo)
+- Início do Jogo:
+   - No menu inicial, pressione:
+     - '1' para jogar contra a IA (CPU)
+     - '2' para jogar contra outro jogador local
+- Dificuldade da IA (modo singleplayer):
+   - Após escolher o modo 1, pressione:
+     - '1' para Fácil
+     - '2' para Médio
+     - '3' para Difícil
+- Após marcar o primeiro ponto, o jogo continua automaticamente.
+- O jogo termina quando um dos jogadores atinge 7 pontos.
+- Pressione ESPAÇO para iniciar a rodada inicial ou reiniciar após o fim do jogo.
