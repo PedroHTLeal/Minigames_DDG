@@ -1,0 +1,13 @@
+# Arquivo de Informações do Jogo da Memória by Kaleido Void Studios #
+
+--> Descrição:
+Este é um jogo da memória desenvolvido em Processing, onde o jogador precisa encontrar 
+pares de imagens idênticas. As imagens pertencem a temas variados como frutas, objetos e personagens. 
+O objetivo é testar e estimular a memória visual do jogador, proporcionando uma experiência divertida, 
+simples e educativa.
+
+--> Diferenciais e Funcionalidades Principais:
+1. 
+
+--> Como Jogar:
+- Execute o programa Processing.
