@@ -1,13 +1,26 @@
 # Arquivo de Informações do Jogo da Memória by Kaleido Void Studios #
 
 --> Descrição:
-Este é um jogo da memória desenvolvido em Processing, onde o jogador precisa encontrar 
-pares de imagens idênticas. As imagens pertencem a temas variados como frutas, objetos e personagens. 
-O objetivo é testar e estimular a memória visual do jogador, proporcionando uma experiência divertida, 
-simples e educativa.
+Um divertido e educativo jogo da memória desenvolvido em Processing, 
+onde o objetivo é encontrar pares de cartas iguais. Com temas visuais atrativos como 
+frutas, objetos e personagens, o jogo proporciona um excelente exercício de memória e 
+concentração para todas as idades.
 
 --> Diferenciais e Funcionalidades Principais:
-1. 
+1. Geração automática e embaralhada de cartas pares;
+2. Seletor de tema antes do início do jogo;
+3. Contagem de tentativas e acertos;
+4. Controle de cartas viradas e encontradas;
+5. Delay visual ao errar um par para melhor feedback;
+6. Detecção de fim de jogo com mensagem de parabéns;
+7. Medição de combos e registro do maior combo da sessão.
 
 --> Como Jogar:
-- Execute o programa Processing.
+- Selecione um tema entre frutas, objetos ou personagens.
+- Clique no botão "Iniciar Jogo".
+- Clique nas cartas para virá-las.
+- Tente encontrar os pares com o menor número de tentativas.
+- Acertos consecutivos aumentam seu combo atual.
+- Se errar um par, o combo é resetado.
+- Quando todos os pares forem encontrados, o jogo será encerrado automaticamente.
+- Clique na tela para reiniciar o jogo após vencer.
